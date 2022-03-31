@@ -25,8 +25,8 @@ def index():
     sent = ""
     webcount = ""
 
-    if count == 1:
-        webcount == """1st"""
+    if count == "1":
+        webcount == "1st"
     elif count == 2:
         webcount == "2nd"
     elif count == 3:
